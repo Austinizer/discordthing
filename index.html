@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="5;url=steam://launch/602960/dialog">
+    <script>
+        function launchGame() {
+            window.location.href = "steam://launch/602960/dialog";
+        }
+    </script>
 </head>
-<body>
-    <img src="https://media.tenor.com/JUw8uPl4eiMAAAAd/barotrauma.gif" alt="Redirecting...">
+<body onload="launchGame()">
+    <img src="barotrauma.gif" alt="Loading...">
 </body>
 </html>
+
